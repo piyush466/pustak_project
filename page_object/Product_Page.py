@@ -33,6 +33,7 @@ class Product_Page(UI_Helper):
                 # button.click()
                 break
         self.switch_to_window()
+        time.sleep(2)
         self.do_click(self.CLICK_ON_BUY_NOW_XPATH)
         self.book_name = self.get_text(self.CAPTURE_THE_BOOK_NAME)
         # self.book_name = ""
