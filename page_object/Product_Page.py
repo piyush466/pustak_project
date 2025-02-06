@@ -26,7 +26,7 @@ class Product_Page(UI_Helper):
         self.all_books = self.driver.find_elements(By.XPATH, "//h2[1]")
         # self.add_cart_buttons = self.driver.find_elements(By.CLASS_NAME, "jsx-313054587 flex items-center	 flex-col")
         for book in self.all_books:
-            print(book.text)
+            # print(book.text)
             # print(button.text)
             if book.text == "The World Book Health And Medical Annual 1993":
                 book.click()
