@@ -13,7 +13,7 @@ from uihelper.helper_file import UI_Helper
 @pytest.fixture()
 def setup(request):
     option = Options()
-    # option.add_argument("--headless")
+    option.add_argument("--headless")
     option.add_argument("--start-maximized")
     driver = webdriver.Chrome(options=option)
     driver.get("https://www.mypustak.com/")
