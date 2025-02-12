@@ -1,4 +1,4 @@
-from tkinter import Scale
+
 
 from test_cases.baseclass import BaseClass
 # from uihelper.helper_file import UI_Helper

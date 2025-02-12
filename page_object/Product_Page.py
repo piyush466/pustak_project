@@ -1,5 +1,5 @@
 import time
-from tkinter import Scale
+
 
 from selenium.common import StaleElementReferenceException
 from selenium.webdriver.common.by import By

@@ -1,5 +1,5 @@
 import pytest
-from pytest_dependency import depends
+
 
 from test_cases.baseclass import BaseClass
 from uihelper.helper_file import UI_Helper
