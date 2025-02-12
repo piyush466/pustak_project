@@ -1,4 +1,10 @@
+i  = 0
 
-class GrandFatehr:
-    def ajoba(self):
-        print("grandfather")
+while i< 5:
+    j = 0
+    print("*", end= " ")
+    while j<i:
+        print("*",end=" ")
+        j = j + 1
+    print()
+    i = i + 1
