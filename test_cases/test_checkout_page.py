@@ -7,7 +7,7 @@ from uihelper.helper_file import UI_Helper
 
 class Test_Checkout_page(BaseClass):
 
-
+    @pytest.mark.order(3)
     def test_01_user_can_do_the_checkout(self):
         self.login.do_login("piyush.alphabin@gmail.com", "Piyush@123")
         self.pro_page.search_book("Health book")
