@@ -15,6 +15,7 @@ class Test_Checkout_page(BaseClass):
         self.checkout.goto_checkout()
         assert  "Order placed" in self.checkout.confirm_text
 
+    @pytest.mark.run(order=3)
     def test_02_user_can_cancel_the_oder(self):
         self.login.do_login("piyush.alphabin@gmail.com", "Piyush@123")
         self.pro_page.search_book("Health book")
