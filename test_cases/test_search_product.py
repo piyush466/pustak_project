@@ -16,14 +16,14 @@ class Test_Product_Page(BaseClass):
     #     self.pro_page.add_product_into_cart()
     #     # self.uihelp.assertion(self.pro_page.title_case, "The World Book Health And Medical Annual 1993")
 
-    @pytest.mark.order(1)
+    @pytest.mark.run(order=1)
     def test_02_user_can_add_product_in_cart(self):
         self.login.do_login("piyush.alphabin@gmail.com", "Piyush@123")
         self.pro_page.search_book("Health book")
         self.pro_page.multiple_product_add_cart()
         self.uihelp.assertion(self.uihelp.get_text(self.pro_page.VERIFY_TEXT_OF_CART_CSS), "My Cart (3)")
 
-    @pytest.mark.order(2)
+    @pytest.mark.run(order=2)
     def test_03_user_can_remove_the_code_from_cart(self):
         self.login.do_login("piyush.alphabin@gmail.com", "Piyush@123")
         self.pro_page.search_book("Health book")
