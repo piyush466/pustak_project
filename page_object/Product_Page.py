@@ -98,6 +98,53 @@ class Product_Page(UI_Helper):
                 break  # Exit loop when no more elements are found
 
 
+    def add_filter(self):
+        self.all_authors = self.driver.find_elements(By.XPATH, "//label[@style='cursor: pointer;']")
+
+        for author in self.all_authors:
+            if author.text == "Dr V K Sharma(7)":
+                author.click()
+                break
+
+        self.applied_filter_author = self.driver.find_elements(By.XPATH, "//h2[@title='dr v k sharma']")
+        print(len(self.applied_filter_author))
+        for applied_author in self.applied_filter_author:
+            print(applied_author.text)
+            self.author = f'By {"Dr V K Sharma"}'
+            if applied_author.text == self.author:
+                print("Test is passed")
+                break
+            else:
+                print("Test is Failed")
+        time.sleep(4)
+
+
+    def sub_links(self):
+        for _ in range(3):
+            self.driver.execute_script("window.scrollBy(0, 15000)")
+            time.sleep(2)
+
+        self.all_links = self.driver.find_elements(By.XPATH, "//li[@class='jsx-38dabb2c740aff62']")
+        self.capture_list = []
+        self.after_click_on_link = []
+        for link in self.all_links:
+            text = link.text
+            self.capture_list.append(text)
+            try:
+                link.click()
+                time.sleep(2)
+                window = self.driver.window_handles
+                self.driver.switch_to.window(window[1])
+                if self.driver.find_element(By.XPATH, "(//img)[1]").is_displayed():
+                    print("This link is displayed:- ",f"{text}")
+                    self.after_click_on_link.append(text)
+                    self.driver.switch_to.window(window[0])
+                else:
+                    print("This link is not displayed:- ",f"{text}")
+                    self.driver.switch_to.window(window[0])
+            except Exception as E:
+                print(E)
+                raise
 
 
 
