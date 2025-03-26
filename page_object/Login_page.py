@@ -1,7 +1,7 @@
 import time
 
 from selenium.webdriver.common.by import By
-
+import requests
 from uihelper.helper_file import UI_Helper
 
 
@@ -28,4 +28,29 @@ class Login(UI_Helper):
         self.send_key(self.ENTER_PASSWORD_XPATH, password)
         self.do_click(self.CLICK_LOGIN_BTN_CSS)
         time.sleep(3)
+
+    def check_broken_links(self):
+        self.links = self.driver.find_elements(By.TAG_NAME, "a")
+
+        self.valid_links = []
+        self.all_links = []
+        self.broken_links = []
+
+        for link in self.links:
+            url = link.get_attribute("href")
+            self.all_links.append(url)
+            if url:
+                try:
+                    response = requests.get(url)
+                    if response.status_code >= 400:
+                        self.broken_links.append(url)
+                        print(f"this url is broker {url} and the status code is {response.status_code}")
+                    else:
+                        self.valid_links.append(url)
+                        print(f"this is valid url {url} and the status code is {response.status_code}")
+                except Exception as E:
+                    print(E)
+
+
+
 

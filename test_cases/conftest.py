@@ -1,14 +1,16 @@
-
-
 from selenium import webdriver
 import pytest
 from selenium.webdriver.chrome.options import Options
-
 from page_object.Checkout_Page import Checkout_Page
 from page_object.Login_page import Login
 from page_object.Product_Page import Product_Page
 from test_cases.baseclass import BaseClass
+from test_data import Login_creds
 from uihelper.helper_file import UI_Helper
+import configparser
+
+config = configparser.ConfigParser()
+config.read(Login_creds.path_of_config_file)
 
 
 @pytest.fixture()
@@ -17,7 +19,7 @@ def setup(request):
     option.add_argument("--headless")
     option.add_argument("--start-maximized")
     driver = webdriver.Chrome(options=option)
-    driver.get("https://www.mypustak.com/")
+    driver.get(config["URL"]["URL"])
     driver.implicitly_wait(10)
     request.cls.driver = driver
     request.cls.login = Login(driver)

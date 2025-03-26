@@ -1,72 +1,59 @@
-# from abc import ABC, abstractmethod
+#method overriding
+
+# class A:
+#
+#     def window(self):
+#         print("window 1")
+#
+# class B(A):
+#     def window(self):
+#         super().window()
+#         print("window 2")
 #
 #
-# class BankApp(ABC):
+# b = B()
+# b.window()
+
+#Method Overloading
+
+# class Cal:
+#     def substraction(self, a = 0, b= 5):
+#         return a - b
 #
-#     @abstractmethod
-#     def security(self):
-#         pass
+# c = Cal()
+# print(c.substraction(10,3))
+# print(c.substraction(4))
+# print(c.substraction())
+
+
+
+# class B:
 #
-#     def databse(self):
-#         return "database is connected"
-#
-#
-# class MobileApp(BankApp):
-#
-#     def new_mobile(self):
-#         return "New mbile app implimented"
-#
-#     def security(self):
-#         return "security implimented in mobile app"
+#     def addition(self, a=0,b=4):
+#         return a + b
 #
 #
-# mob = MobileApp()
-# print(mob.databse())
-# print(mob.security())
+# b = B()
+# print(b.addition())
+# print(b.addition(3,6))
 
 
-
-
-
-
-
-
-# num = int(input("enter number"))
+# list = [2,3,4,1,23,4,5,6,3,2,34,5,]
 #
-# if num % 2 == 0:
-#     print(" this is even number")
-# else:
-#     print("this is odd number")
+# new_list = []
 #
-
-# list= [2,3,4,2,4,5,2,3,4,5]
-# new = []
+# for i in range(len(list) -1,-1,-1):
+#     print(i,list[i])
+#     new_list.append(list[i])
 #
-# for i in list:
-#     if i not in new:
-#         new.append(i)
-#
-# print(new)
+# print(new_list)
 
-# #count kitinumber kiti da aala ahe te
-# list = [2,3,4,2,4,5,2,3,4,5]
-#
-# for i in list:
-#     for j in range(1,9):
-#         j = 1 + list[]
-#             if  i == list[j]:
+list = [2,3,4,1,23,4,5,6,3,2,34,5]
+# print(len(list))
+# print(list[-1:-13:-1])
 
-
-
-
-
-
-
-
-
-
-
-
+for i in range(len(list)-1,-1,-1):
+    print(i,list[i])
 
 
 

@@ -19,6 +19,10 @@ class Product_Page(UI_Helper):
     CLICK_ON_ADD_TO_CART_BTN_XPATH = (By.XPATH, "//div[@class='jsx-313054587 md:h-[29.5rem] w-[100%] h-[30.5rem]  bg-white flex flex-col']/div[4]/button")
     CLICK_ON_CART_XPATH = (By.XPATH, "(//span[text()='Cart'])[1]")
     VERIFY_TEXT_OF_CART_CSS = (By.CSS_SELECTOR, "[class='px-3']")
+    #click_n donate bookk
+    CLICK_DONATE_BOOK_ID = (By.ID, "donateBookBtn")
+    CLICK_OUR_PROUD_DONOR_ID = (By.ID, "proudDonerBtn")
+    DONOR_TEXT_XPATH = (By.XPATH, "//*[text()='proud-donors']")
 
 
     def __init__(self, driver):
@@ -147,7 +151,30 @@ class Product_Page(UI_Helper):
                 raise
 
 
+    def logo_displayed(self):
+        logos = self.driver.find_elements(By.XPATH, "//span[@style='font-weight: bold; font-size: 0.8rem; text-decoration: none;']")
+        self.lenght_of_logo = len(logos)
 
+    def shop_by_category(self):
+        shop_categories = self.driver.find_elements(By.XPATH, "//*[contains(@id, 'shopCat')]/parent::div/parent::div/div[2]/div/div/a[2]")
+        # self.driver.execute_script("arguments[0].scrollIntoView();", shop_categories)
+        self.lenght_of_shop_category = len(shop_categories)
+
+    def donate_book(self):
+        # element = self.driver.find_element(By.ID, self.CLICK_DONATE_BOOK_ID)
+        for _ in range(2):
+            self.driver.execute_script("window.scrollBy(0, 2200)")
+            time.sleep(2)
+        # self.driver.execute_script("arguments[0].scrollIntoView();",element)
+        self.do_click(self.CLICK_DONATE_BOOK_ID)
+        self.current_url = self.driver.current_url
+
+    def our_proud_donor_verify_btn(self):
+        for _ in range(2):
+            self.driver.execute_script("window.scrollBy(0, 2150)")
+            time.sleep(2)
+        self.do_click(self.CLICK_OUR_PROUD_DONOR_ID)
+        self.proud_donor_text = self.get_text(self.DONOR_TEXT_XPATH)
 
 
 
