@@ -1,92 +1,123 @@
-# # list = [2,3,4,61,23,4,6,3,4,5,6,4,3]
+# import time
+# from os import times
+#
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+# driver = webdriver.Chrome()
+# driver.get("https://www.flipkart.com/")
+# driver.implicitly_wait(10)
+# driver.maximize_window()
+# search = driver.find_element(By.NAME, "q")
+# search.send_keys("iphone 15")
+# search.submit()
+# driver.find_element(By.XPATH, "//*[contains(text(),'Apple iPhone 15 (Black, 128 GB)')]/parent::div/parent::div//div[@class='Nx9bqj _4b5DiR']").click()
+# window = driver.window_handles
+# driver.switch_to.window(window[1])
+# time.sleep(2)
+# driver.find_element(By.XPATH, "//form/button").click()
+#
+# time.sleep(5)
+from copyreg import pickle
+from os import lseek
+
+#
+# lists = ["$23", "$2", "$4", "$5", "$67", "$4"]
+#
+# new_list = []
+# for list in lists:
+#     var = list.replace("$","")
+#     cont_int = int(var)
+#     new_list.append(cont_int)
+#
+# print(new_list)
+# var1 = new_list[1]
+# print(type(var1))
+#
+# new = "   i am piyush     "
+#
+# print(new.strip())
+# print(new.split(""))
+# print(new.replace(" ", ""))
+
+#
+# lists = ["$23", "$2", "$4", "$5", "$67", "$4"]
+#
+# new_one = []
+#
+# for i in lists:
+#     new = i.split()
+#     new.append(new_one)
+#
+# print(new_one)
+
+
+# name  = "my name is piyush"
+# new_name = name.split()
+# print(new_name)
+# new_list = []
+#
+# for i in new_name:
+#     print(i[::-1])
+#     new_list.append(i[::-1])
+#
+# print(new_list)
+#
+# new_good = " ".join(new_list)
+# print(new_good)
+
+
+
+
+# for i in range(1,11):
+#     print(i*3)
+
+# name = "piyush is my friend"
+#
+# new_names = name.split()
+#
+# list1 = []
+# for n in new_names:
+#     print(n[::-1])
+#     list1.append(n[::-1])
+#
+#
+# print(list1)
+#
+# piyush = " ".join(list1)
+# print(piyush)
+
+
+# list1 = [1,2,1,2,3,4,2,3,4,2]
+# list2 = [2,3,4,5,6,7]
+#
+# print(list1+list2)
+
+# name = "hello akash kaje"
+#
+# print(name.strip()) # space nikalta hai aage aur piche se
+#
+# print(name.split()) # list me dalta hai
+#
+# print("".join(name))
+#
+# print(name.count("s"))
+#
+# print(name.replace("kaje", "dravyakar"))
+
+
+# list = [1,2,3,4,5,1,2,3,1,2,3,4]
+#
+# print(list.count(1))
+#
+# # dict = {}
 # #
-# # print(sorted(list))
-# import configparser
-#
-# config = configparser.ConfigParser()
-# config.read(r"config\\config.ini")
-#
-# print(config["URL"]["URL"])
-# # print(config.sections())
-# from pythonProject.utilities.logger import setup_logger
-#
-# # Fetch URL if section exists
-#
-# log = setup_logger()
-# log.info("testtsdagg")
-
-# import datetime
-#
-# now = datetime.datetime.now()
-#
-# # Extract time without milliseconds
-# current_time = now.strftime("%H:%M:%S")
-# print(current_time)
-
-
-# import os
-# from dotenv import load_dotenv
-#
-# # Provide the correct .env file path
-# env_path = r"C:\Users\Piyush Dravyakar\Pustak_project\pythonProject\.env"
-#
-# # Load environment variables from the .env file
-# load_dotenv(env_path)
-#
-# # Get environment variable
-# username = os.getenv("USEREMAIL")  # Ensure it matches the key in the .env file
-#
-# # Print the value
-# print(f"Username: {username}")
-
-# a = 3,4,5
-#
-# a.count()
-# print(a)
-
-string = "piyush"
-new_string = ""
-
-# print(string[::-1])
-
-# for i in range(len(string)-1,-1,-1):
-#     print(string[i],end="")
-
-
-
-
-
-# for i in range(len(string)-1,-1,-1):
-#     print(i,string[i])
-#     new_string = new_string + string[i]
-#
-# print(new_string)
-
-# print(string[::-1])
-
-
-# list = [4,1,5,9,2,6]
-
-# def largest_second_number(list):
-#     new_sorted = sorted(list)
-#     # print(new_sorted)
-#     return (new_sorted[::-1][1])
-#
-# new_largest = largest_second_number([4,1,5,9,2,6])
-# print(new_largest)
-
-
-# lista = [12,23,4,112,3,23]
-#
-# newL = []
-# lista.reverse()
-# print(lista)
-# print(list(reversed(lista)))
-
-my_list = [12, 23, 4, 112, 3, 23]
-
-my_list.reverse()  # Reverses the list in place
-print(my_list)
+# # for i in list:
+# #     if i in dict:
+# #         dict[i] = dict[i] +1
+# #     else:
+# #         dict[i] = 1
+# #
+# # print(dict)
 
 
 
@@ -94,8 +125,29 @@ print(my_list)
 
 
 
-# for i in range(len(list)-1,-1,-1):
-#     print(i,list[i])
-#     newL.append(list[i])
-#
-# print(newL)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

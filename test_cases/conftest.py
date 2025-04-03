@@ -3,6 +3,7 @@ import pytest
 from selenium.webdriver.chrome.options import Options
 from page_object.Checkout_Page import Checkout_Page
 from page_object.Login_page import Login
+from page_object.My_Profile_page import My_Profile
 from page_object.Product_Page import Product_Page
 from test_cases.baseclass import BaseClass
 from test_data import Login_creds
@@ -16,7 +17,7 @@ config.read(Login_creds.path_of_config_file)
 @pytest.fixture()
 def setup(request):
     option = Options()
-    option.add_argument("--headless")
+    # option.add_argument("--headless")
     option.add_argument("--start-maximized")
     driver = webdriver.Chrome(options=option)
     driver.get(config["URL"]["URL"])
@@ -26,6 +27,7 @@ def setup(request):
     request.cls.uihelp = UI_Helper(driver)
     request.cls.pro_page = Product_Page(driver)
     request.cls.checkout = Checkout_Page(driver)
+    request.cls.my_profile = My_Profile(driver)
 
     yield driver
     driver.quit()
