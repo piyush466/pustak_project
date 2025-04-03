@@ -45,3 +45,6 @@ class UI_Helper:
         name = f"Screenshot_{current_time}"
         file_path = f"C:\\Users\\Piyush Dravyakar\\Pustak_project\\pythonProject\\screenshots\\{name}.png"
         self.driver.save_screenshot(file_path)
+
+    def clear_text(self,by_locator):
+        WebDriverWait(self.driver,10).until(EC.presence_of_element_located(by_locator)).clear()
