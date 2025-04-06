@@ -1,0 +1,302 @@
+2025-04-05 20:59:58,890 - AppLogger - INFO - Clicked element located by: ('css selector', "button[class='undefined icon']")
+2025-04-05 20:59:59,276 - AppLogger - INFO - Sent keys 'piyush.alphabin@gmail.com' to element located by: ('css selector', 'input.MuiInputBase-input')
+2025-04-05 20:59:59,417 - AppLogger - INFO - Clicked element located by: ('xpath', "(//button[@type='submit'])[3]")
+2025-04-05 20:59:59,663 - AppLogger - INFO - Sent keys 'Piyush@123' to element located by: ('xpath', "//input[@type='password']")
+2025-04-05 20:59:59,762 - AppLogger - INFO - Clicked element located by: ('css selector', 'button.WLoginNavbar_loginButton__M7mhW')
+2025-04-05 21:00:03,529 - AppLogger - INFO - Sent keys 'Health book' to element located by: ('xpath', "(//input[@id='gsearch'])[1]")
+2025-04-05 21:00:04,967 - AppLogger - INFO - Clicked element located by: ('xpath', '(//button[@aria-label="searchButton"])[1]')
+2025-04-05 21:00:05,576 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[contains(text(), 'Health Quest Book 6')]/parent::div/parent::div/div[2]/button")
+2025-04-05 21:00:07,670 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[text()='View Wishlist']")
+2025-04-05 21:00:12,813 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[text()=' Remove']")
+2025-04-05 21:00:17,813 - AppLogger - ERROR - Exception occurred while matching the data: The result does not match
+2025-04-05 21:00:18,002 - AppLogger - INFO - Screenshot taken: C:\Users\Piyush Dravyakar\pythonProject_pustak\screenshots\Screenshot_05_04_2025_21_00_17.png
+2025-04-05 21:01:05,815 - AppLogger - INFO - Clicked element located by: ('css selector', "button[class='undefined icon']")
+2025-04-05 21:01:06,171 - AppLogger - INFO - Sent keys 'piyush.alphabin@gmail.com' to element located by: ('css selector', 'input.MuiInputBase-input')
+2025-04-05 21:01:06,343 - AppLogger - INFO - Clicked element located by: ('xpath', "(//button[@type='submit'])[3]")
+2025-04-05 21:01:06,622 - AppLogger - INFO - Sent keys 'Piyush@123' to element located by: ('xpath', "//input[@type='password']")
+2025-04-05 21:01:06,711 - AppLogger - INFO - Clicked element located by: ('css selector', 'button.WLoginNavbar_loginButton__M7mhW')
+2025-04-05 21:01:11,419 - AppLogger - INFO - Sent keys 'Health book' to element located by: ('xpath', "(//input[@id='gsearch'])[1]")
+2025-04-05 21:01:12,558 - AppLogger - INFO - Clicked element located by: ('xpath', '(//button[@aria-label="searchButton"])[1]')
+2025-04-05 21:01:13,479 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[contains(text(), 'Health Quest Book 6')]/parent::div/parent::div/div[2]/button")
+2025-04-05 21:01:15,570 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[text()='View Wishlist']")
+2025-04-05 21:01:20,689 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[text()=' Remove']")
+2025-04-05 21:01:25,690 - AppLogger - ERROR - Exception occurred while matching the data: The result does not match
+2025-04-05 21:01:25,877 - AppLogger - ERROR - Screenshot taken: C:\Users\Piyush Dravyakar\pythonProject_pustak\screenshots\Screenshot_05_04_2025_21_01_25.png
+2025-04-05 21:01:58,395 - AppLogger - INFO - Clicked element located by: ('css selector', "button[class='undefined icon']")
+2025-04-05 21:01:58,799 - AppLogger - INFO - Sent keys 'piyush.alphabin@gmail.com' to element located by: ('css selector', 'input.MuiInputBase-input')
+2025-04-05 21:01:58,931 - AppLogger - INFO - Clicked element located by: ('xpath', "(//button[@type='submit'])[3]")
+2025-04-05 21:01:59,182 - AppLogger - INFO - Sent keys 'Piyush@123' to element located by: ('xpath', "//input[@type='password']")
+2025-04-05 21:01:59,291 - AppLogger - INFO - Clicked element located by: ('css selector', 'button.WLoginNavbar_loginButton__M7mhW')
+2025-04-05 21:02:03,697 - AppLogger - INFO - Sent keys 'Health book' to element located by: ('xpath', "(//input[@id='gsearch'])[1]")
+2025-04-05 21:02:04,904 - AppLogger - INFO - Clicked element located by: ('xpath', '(//button[@aria-label="searchButton"])[1]')
+2025-04-05 21:02:05,539 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[contains(text(), 'Health Quest Book 6')]/parent::div/parent::div/div[2]/button")
+2025-04-05 21:02:07,666 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[text()='View Wishlist']")
+2025-04-05 21:02:12,788 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[text()=' Remove']")
+2025-04-05 21:02:17,788 - AppLogger - INFO - Assertion passed: Actual = True, Expected = True
+2025-04-05 21:07:17,353 - AppLogger - INFO - Clicked element located by: ('css selector', "button[class='undefined icon']")
+2025-04-05 21:07:17,738 - AppLogger - INFO - Sent keys 'piyush.alphabin@gmail.com' to element located by: ('css selector', 'input.MuiInputBase-input')
+2025-04-05 21:07:17,849 - AppLogger - INFO - Clicked element located by: ('xpath', "(//button[@type='submit'])[3]")
+2025-04-05 21:07:18,140 - AppLogger - INFO - Sent keys 'Piyush@123' to element located by: ('xpath', "//input[@type='password']")
+2025-04-05 21:07:18,248 - AppLogger - INFO - Clicked element located by: ('css selector', 'button.WLoginNavbar_loginButton__M7mhW')
+2025-04-05 21:07:23,445 - AppLogger - INFO - Sent keys 'Health book' to element located by: ('xpath', "(//input[@id='gsearch'])[1]")
+2025-04-05 21:07:25,241 - AppLogger - INFO - Clicked element located by: ('xpath', '(//button[@aria-label="searchButton"])[1]')
+2025-04-05 21:07:26,181 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[contains(text(), 'Health Quest Book 6')]/parent::div/parent::div/div[2]/button")
+2025-04-05 21:07:28,302 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[text()='View Wishlist']")
+2025-04-05 21:07:33,414 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[text()=' Remove']")
+2025-04-05 21:07:59,020 - AppLogger - ERROR - Exception occurred while doing click: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C6014C25+3179557]
+	(No symbol) [0x00007FF7C5C788A0]
+	(No symbol) [0x00007FF7C5B091CA]
+	(No symbol) [0x00007FF7C5B5FA67]
+	(No symbol) [0x00007FF7C5B5FC9C]
+	(No symbol) [0x00007FF7C5BB3627]
+	(No symbol) [0x00007FF7C5B87C6F]
+	(No symbol) [0x00007FF7C5BB02F3]
+	(No symbol) [0x00007FF7C5B87A03]
+	(No symbol) [0x00007FF7C5B506D0]
+	(No symbol) [0x00007FF7C5B51983]
+	GetHandleVerifier [0x00007FF7C60767CD+3579853]
+	GetHandleVerifier [0x00007FF7C608D1D2+3672530]
+	GetHandleVerifier [0x00007FF7C6082153+3627347]
+	GetHandleVerifier [0x00007FF7C5DE092A+868650]
+	(No symbol) [0x00007FF7C5C82FFF]
+	(No symbol) [0x00007FF7C5C7F4A4]
+	(No symbol) [0x00007FF7C5C7F646]
+	(No symbol) [0x00007FF7C5C6EAA9]
+	BaseThreadInitThunk [0x00007FFAAE8BE8D7+23]
+	RtlUserThreadStart [0x00007FFAAFA714FC+44]
+
+2025-04-05 21:07:59,315 - AppLogger - ERROR - Screenshot taken: C:\Users\Piyush Dravyakar\pythonProject_pustak\screenshots\Screenshot_05_04_2025_21_07_59.png
+2025-04-05 21:08:21,903 - AppLogger - ERROR - Exception occurred while doing click: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C6014C25+3179557]
+	(No symbol) [0x00007FF7C5C788A0]
+	(No symbol) [0x00007FF7C5B091CA]
+	(No symbol) [0x00007FF7C5B5FA67]
+	(No symbol) [0x00007FF7C5B5FC9C]
+	(No symbol) [0x00007FF7C5BB3627]
+	(No symbol) [0x00007FF7C5B87C6F]
+	(No symbol) [0x00007FF7C5BB02F3]
+	(No symbol) [0x00007FF7C5B87A03]
+	(No symbol) [0x00007FF7C5B506D0]
+	(No symbol) [0x00007FF7C5B51983]
+	GetHandleVerifier [0x00007FF7C60767CD+3579853]
+	GetHandleVerifier [0x00007FF7C608D1D2+3672530]
+	GetHandleVerifier [0x00007FF7C6082153+3627347]
+	GetHandleVerifier [0x00007FF7C5DE092A+868650]
+	(No symbol) [0x00007FF7C5C82FFF]
+	(No symbol) [0x00007FF7C5C7F4A4]
+	(No symbol) [0x00007FF7C5C7F646]
+	(No symbol) [0x00007FF7C5C6EAA9]
+	BaseThreadInitThunk [0x00007FFAAE8BE8D7+23]
+	RtlUserThreadStart [0x00007FFAAFA714FC+44]
+
+2025-04-05 21:08:22,169 - AppLogger - ERROR - Screenshot taken: C:\Users\Piyush Dravyakar\pythonProject_pustak\screenshots\Screenshot_05_04_2025_21_08_21.png
+2025-04-05 21:08:44,788 - AppLogger - ERROR - Exception occurred while doing click: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C6014C25+3179557]
+	(No symbol) [0x00007FF7C5C788A0]
+	(No symbol) [0x00007FF7C5B091CA]
+	(No symbol) [0x00007FF7C5B5FA67]
+	(No symbol) [0x00007FF7C5B5FC9C]
+	(No symbol) [0x00007FF7C5BB3627]
+	(No symbol) [0x00007FF7C5B87C6F]
+	(No symbol) [0x00007FF7C5BB02F3]
+	(No symbol) [0x00007FF7C5B87A03]
+	(No symbol) [0x00007FF7C5B506D0]
+	(No symbol) [0x00007FF7C5B51983]
+	GetHandleVerifier [0x00007FF7C60767CD+3579853]
+	GetHandleVerifier [0x00007FF7C608D1D2+3672530]
+	GetHandleVerifier [0x00007FF7C6082153+3627347]
+	GetHandleVerifier [0x00007FF7C5DE092A+868650]
+	(No symbol) [0x00007FF7C5C82FFF]
+	(No symbol) [0x00007FF7C5C7F4A4]
+	(No symbol) [0x00007FF7C5C7F646]
+	(No symbol) [0x00007FF7C5C6EAA9]
+	BaseThreadInitThunk [0x00007FFAAE8BE8D7+23]
+	RtlUserThreadStart [0x00007FFAAFA714FC+44]
+
+2025-04-05 21:08:45,028 - AppLogger - ERROR - Screenshot taken: C:\Users\Piyush Dravyakar\pythonProject_pustak\screenshots\Screenshot_05_04_2025_21_08_44.png
+2025-04-05 21:09:05,649 - AppLogger - ERROR - Exception occurred while getting text: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C6014C25+3179557]
+	(No symbol) [0x00007FF7C5C788A0]
+	(No symbol) [0x00007FF7C5B091CA]
+	(No symbol) [0x00007FF7C5B5FA67]
+	(No symbol) [0x00007FF7C5B5FC9C]
+	(No symbol) [0x00007FF7C5BB3627]
+	(No symbol) [0x00007FF7C5B87C6F]
+	(No symbol) [0x00007FF7C5BB02F3]
+	(No symbol) [0x00007FF7C5B87A03]
+	(No symbol) [0x00007FF7C5B506D0]
+	(No symbol) [0x00007FF7C5B51983]
+	GetHandleVerifier [0x00007FF7C60767CD+3579853]
+	GetHandleVerifier [0x00007FF7C608D1D2+3672530]
+	GetHandleVerifier [0x00007FF7C6082153+3627347]
+	GetHandleVerifier [0x00007FF7C5DE092A+868650]
+	(No symbol) [0x00007FF7C5C82FFF]
+	(No symbol) [0x00007FF7C5C7F4A4]
+	(No symbol) [0x00007FF7C5C7F646]
+	(No symbol) [0x00007FF7C5C6EAA9]
+	BaseThreadInitThunk [0x00007FFAAE8BE8D7+23]
+	RtlUserThreadStart [0x00007FFAAFA714FC+44]
+
+2025-04-05 21:09:05,946 - AppLogger - ERROR - Screenshot taken: C:\Users\Piyush Dravyakar\pythonProject_pustak\screenshots\Screenshot_05_04_2025_21_09_05.png
+2025-04-05 21:10:02,477 - AppLogger - INFO - Clicked element located by: ('css selector', "button[class='undefined icon']")
+2025-04-05 21:10:02,834 - AppLogger - INFO - Sent keys 'piyush.alphabin@gmail.com' to element located by: ('css selector', 'input.MuiInputBase-input')
+2025-04-05 21:10:02,959 - AppLogger - INFO - Clicked element located by: ('xpath', "(//button[@type='submit'])[3]")
+2025-04-05 21:10:03,184 - AppLogger - INFO - Sent keys 'Piyush@123' to element located by: ('xpath', "//input[@type='password']")
+2025-04-05 21:10:03,281 - AppLogger - INFO - Clicked element located by: ('css selector', 'button.WLoginNavbar_loginButton__M7mhW')
+2025-04-05 21:10:09,160 - AppLogger - INFO - Sent keys 'Health book' to element located by: ('xpath', "(//input[@id='gsearch'])[1]")
+2025-04-05 21:10:10,583 - AppLogger - INFO - Clicked element located by: ('xpath', '(//button[@aria-label="searchButton"])[1]')
+2025-04-05 21:10:11,340 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[contains(text(), 'Health Quest Book 6')]/parent::div/parent::div/div[2]/button")
+2025-04-05 21:10:13,429 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[text()='View Wishlist']")
+2025-04-05 21:10:18,533 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[text()=' Remove']")
+2025-04-05 21:10:44,070 - AppLogger - ERROR - Exception occurred while doing click: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C6014C25+3179557]
+	(No symbol) [0x00007FF7C5C788A0]
+	(No symbol) [0x00007FF7C5B091CA]
+	(No symbol) [0x00007FF7C5B5FA67]
+	(No symbol) [0x00007FF7C5B5FC9C]
+	(No symbol) [0x00007FF7C5BB3627]
+	(No symbol) [0x00007FF7C5B87C6F]
+	(No symbol) [0x00007FF7C5BB02F3]
+	(No symbol) [0x00007FF7C5B87A03]
+	(No symbol) [0x00007FF7C5B506D0]
+	(No symbol) [0x00007FF7C5B51983]
+	GetHandleVerifier [0x00007FF7C60767CD+3579853]
+	GetHandleVerifier [0x00007FF7C608D1D2+3672530]
+	GetHandleVerifier [0x00007FF7C6082153+3627347]
+	GetHandleVerifier [0x00007FF7C5DE092A+868650]
+	(No symbol) [0x00007FF7C5C82FFF]
+	(No symbol) [0x00007FF7C5C7F4A4]
+	(No symbol) [0x00007FF7C5C7F646]
+	(No symbol) [0x00007FF7C5C6EAA9]
+	BaseThreadInitThunk [0x00007FFAAE8BE8D7+23]
+	RtlUserThreadStart [0x00007FFAAFA714FC+44]
+
+2025-04-05 21:10:44,304 - AppLogger - ERROR - Screenshot taken: C:\Users\Piyush Dravyakar\pythonProject_pustak\screenshots\Screenshot_05_04_2025_21_10_44.png
+2025-04-05 21:11:06,900 - AppLogger - ERROR - Exception occurred while doing click: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C6014C25+3179557]
+	(No symbol) [0x00007FF7C5C788A0]
+	(No symbol) [0x00007FF7C5B091CA]
+	(No symbol) [0x00007FF7C5B5FA67]
+	(No symbol) [0x00007FF7C5B5FC9C]
+	(No symbol) [0x00007FF7C5BB3627]
+	(No symbol) [0x00007FF7C5B87C6F]
+	(No symbol) [0x00007FF7C5BB02F3]
+	(No symbol) [0x00007FF7C5B87A03]
+	(No symbol) [0x00007FF7C5B506D0]
+	(No symbol) [0x00007FF7C5B51983]
+	GetHandleVerifier [0x00007FF7C60767CD+3579853]
+	GetHandleVerifier [0x00007FF7C608D1D2+3672530]
+	GetHandleVerifier [0x00007FF7C6082153+3627347]
+	GetHandleVerifier [0x00007FF7C5DE092A+868650]
+	(No symbol) [0x00007FF7C5C82FFF]
+	(No symbol) [0x00007FF7C5C7F4A4]
+	(No symbol) [0x00007FF7C5C7F646]
+	(No symbol) [0x00007FF7C5C6EAA9]
+	BaseThreadInitThunk [0x00007FFAAE8BE8D7+23]
+	RtlUserThreadStart [0x00007FFAAFA714FC+44]
+
+2025-04-05 21:11:07,186 - AppLogger - ERROR - Screenshot taken: C:\Users\Piyush Dravyakar\pythonProject_pustak\screenshots\Screenshot_05_04_2025_21_11_06.png
+2025-04-05 21:11:29,796 - AppLogger - ERROR - Exception occurred while doing click: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C6014C25+3179557]
+	(No symbol) [0x00007FF7C5C788A0]
+	(No symbol) [0x00007FF7C5B091CA]
+	(No symbol) [0x00007FF7C5B5FA67]
+	(No symbol) [0x00007FF7C5B5FC9C]
+	(No symbol) [0x00007FF7C5BB3627]
+	(No symbol) [0x00007FF7C5B87C6F]
+	(No symbol) [0x00007FF7C5BB02F3]
+	(No symbol) [0x00007FF7C5B87A03]
+	(No symbol) [0x00007FF7C5B506D0]
+	(No symbol) [0x00007FF7C5B51983]
+	GetHandleVerifier [0x00007FF7C60767CD+3579853]
+	GetHandleVerifier [0x00007FF7C608D1D2+3672530]
+	GetHandleVerifier [0x00007FF7C6082153+3627347]
+	GetHandleVerifier [0x00007FF7C5DE092A+868650]
+	(No symbol) [0x00007FF7C5C82FFF]
+	(No symbol) [0x00007FF7C5C7F4A4]
+	(No symbol) [0x00007FF7C5C7F646]
+	(No symbol) [0x00007FF7C5C6EAA9]
+	BaseThreadInitThunk [0x00007FFAAE8BE8D7+23]
+	RtlUserThreadStart [0x00007FFAAFA714FC+44]
+
+2025-04-05 21:11:29,976 - AppLogger - ERROR - Screenshot taken: C:\Users\Piyush Dravyakar\pythonProject_pustak\screenshots\Screenshot_05_04_2025_21_11_29.png
+2025-04-05 21:11:52,766 - AppLogger - ERROR - Exception occurred while getting text: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C6014C25+3179557]
+	(No symbol) [0x00007FF7C5C788A0]
+	(No symbol) [0x00007FF7C5B091CA]
+	(No symbol) [0x00007FF7C5B5FA67]
+	(No symbol) [0x00007FF7C5B5FC9C]
+	(No symbol) [0x00007FF7C5BB3627]
+	(No symbol) [0x00007FF7C5B87C6F]
+	(No symbol) [0x00007FF7C5BB02F3]
+	(No symbol) [0x00007FF7C5B87A03]
+	(No symbol) [0x00007FF7C5B506D0]
+	(No symbol) [0x00007FF7C5B51983]
+	GetHandleVerifier [0x00007FF7C60767CD+3579853]
+	GetHandleVerifier [0x00007FF7C608D1D2+3672530]
+	GetHandleVerifier [0x00007FF7C6082153+3627347]
+	GetHandleVerifier [0x00007FF7C5DE092A+868650]
+	(No symbol) [0x00007FF7C5C82FFF]
+	(No symbol) [0x00007FF7C5C7F4A4]
+	(No symbol) [0x00007FF7C5C7F646]
+	(No symbol) [0x00007FF7C5C6EAA9]
+	BaseThreadInitThunk [0x00007FFAAE8BE8D7+23]
+	RtlUserThreadStart [0x00007FFAAFA714FC+44]
+
+2025-04-05 21:11:53,147 - AppLogger - ERROR - Screenshot taken: C:\Users\Piyush Dravyakar\pythonProject_pustak\screenshots\Screenshot_05_04_2025_21_11_52.png
+2025-04-05 21:12:47,418 - AppLogger - INFO - Clicked element located by: ('css selector', "button[class='undefined icon']")
+2025-04-05 21:12:47,740 - AppLogger - INFO - Sent keys 'piyush.alphabin@gmail.com' to element located by: ('css selector', 'input.MuiInputBase-input')
+2025-04-05 21:12:47,841 - AppLogger - INFO - Clicked element located by: ('xpath', "(//button[@type='submit'])[3]")
+2025-04-05 21:12:48,066 - AppLogger - INFO - Sent keys 'Piyush@123' to element located by: ('xpath', "//input[@type='password']")
+2025-04-05 21:12:48,151 - AppLogger - INFO - Clicked element located by: ('css selector', 'button.WLoginNavbar_loginButton__M7mhW')
+2025-04-05 21:12:53,400 - AppLogger - INFO - Sent keys 'Health book' to element located by: ('xpath', "(//input[@id='gsearch'])[1]")
+2025-04-05 21:12:54,735 - AppLogger - INFO - Clicked element located by: ('xpath', '(//button[@aria-label="searchButton"])[1]')
+2025-04-05 21:12:55,365 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[contains(text(), 'Health Quest Book 6')]/parent::div/parent::div/div[2]/button")
+2025-04-05 21:12:57,453 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[text()='View Wishlist']")
+2025-04-05 21:12:59,538 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[text()=' Remove']")
+2025-04-05 21:13:01,563 - AppLogger - INFO - Text retrieved from element located by ('xpath', "//*[text()='Book Successfully Removed from Wishlist']"): Book Successfully Removed from Wishlist
+2025-04-05 21:13:55,636 - AppLogger - INFO - Clicked element located by: ('css selector', "button[class='undefined icon']")
+2025-04-05 21:13:56,006 - AppLogger - INFO - Sent keys 'piyush.alphabin@gmail.com' to element located by: ('css selector', 'input.MuiInputBase-input')
+2025-04-05 21:13:56,113 - AppLogger - INFO - Clicked element located by: ('xpath', "(//button[@type='submit'])[3]")
+2025-04-05 21:13:56,330 - AppLogger - INFO - Sent keys 'Piyush@123' to element located by: ('xpath', "//input[@type='password']")
+2025-04-05 21:13:56,418 - AppLogger - INFO - Clicked element located by: ('css selector', 'button.WLoginNavbar_loginButton__M7mhW')
+2025-04-05 21:14:02,288 - AppLogger - INFO - Sent keys 'Health book' to element located by: ('xpath', "(//input[@id='gsearch'])[1]")
+2025-04-05 21:14:04,206 - AppLogger - INFO - Clicked element located by: ('xpath', '(//button[@aria-label="searchButton"])[1]')
+2025-04-05 21:14:05,094 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[contains(text(), 'Health Quest Book 6')]/parent::div/parent::div/div[2]/button")
+2025-04-05 21:14:07,193 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[text()='View Wishlist']")
+2025-04-05 21:14:09,274 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[text()=' Remove']")
+2025-04-05 21:14:09,430 - AppLogger - INFO - Text retrieved from element located by ('xpath', "//*[text()='Book Successfully Removed from Wishlist']"): Book Successfully Removed from Wishlist
+2025-04-05 21:14:09,430 - AppLogger - INFO - Assertion passed: Actual = Book Successfully Removed from Wishlist, Expected = Book Successfully Removed from Wishlist
+2025-04-05 21:14:31,897 - AppLogger - INFO - Clicked element located by: ('css selector', "button[class='undefined icon']")
+2025-04-05 21:14:32,227 - AppLogger - INFO - Sent keys 'piyush.alphabin@gmail.com' to element located by: ('css selector', 'input.MuiInputBase-input')
+2025-04-05 21:14:32,327 - AppLogger - INFO - Clicked element located by: ('xpath', "(//button[@type='submit'])[3]")
+2025-04-05 21:14:32,558 - AppLogger - INFO - Sent keys 'Piyush@123' to element located by: ('xpath', "//input[@type='password']")
+2025-04-05 21:14:32,644 - AppLogger - INFO - Clicked element located by: ('css selector', 'button.WLoginNavbar_loginButton__M7mhW')
+2025-04-05 21:14:37,196 - AppLogger - INFO - Sent keys 'Health book' to element located by: ('xpath', "(//input[@id='gsearch'])[1]")
+2025-04-05 21:14:38,128 - AppLogger - INFO - Clicked element located by: ('xpath', '(//button[@aria-label="searchButton"])[1]')
+2025-04-05 21:14:38,833 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[contains(text(), 'Health Quest Book 6')]/parent::div/parent::div/div[2]/button")
+2025-04-05 21:14:39,488 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[text()='View Wishlist']")
+2025-04-05 21:14:41,585 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[text()=' Remove']")
+2025-04-05 21:14:41,750 - AppLogger - INFO - Text retrieved from element located by ('xpath', "//*[text()='Book Successfully Removed from Wishlist']"): Book Successfully Removed from Wishlist
+2025-04-05 21:14:41,751 - AppLogger - INFO - Assertion passed: Actual = Book Successfully Removed from Wishlist, Expected = Book Successfully Removed from Wishlist
+2025-04-05 21:15:00,081 - AppLogger - INFO - Clicked element located by: ('css selector', "button[class='undefined icon']")
+2025-04-05 21:15:00,422 - AppLogger - INFO - Sent keys 'piyush.alphabin@gmail.com' to element located by: ('css selector', 'input.MuiInputBase-input')
+2025-04-05 21:15:00,531 - AppLogger - INFO - Clicked element located by: ('xpath', "(//button[@type='submit'])[3]")
+2025-04-05 21:15:00,756 - AppLogger - INFO - Sent keys 'Piyush@123' to element located by: ('xpath', "//input[@type='password']")
+2025-04-05 21:15:00,842 - AppLogger - INFO - Clicked element located by: ('css selector', 'button.WLoginNavbar_loginButton__M7mhW')
+2025-04-05 21:15:06,259 - AppLogger - INFO - Sent keys 'Health book' to element located by: ('xpath', "(//input[@id='gsearch'])[1]")
+2025-04-05 21:15:08,105 - AppLogger - INFO - Clicked element located by: ('xpath', '(//button[@aria-label="searchButton"])[1]')
+2025-04-05 21:15:08,844 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[contains(text(), 'Health Quest Book 6')]/parent::div/parent::div/div[2]/button")
+2025-04-05 21:15:09,476 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[text()='View Wishlist']")
+2025-04-05 21:15:10,745 - AppLogger - INFO - Clicked element located by: ('xpath', "//*[text()=' Remove']")
+2025-04-05 21:15:10,894 - AppLogger - INFO - Text retrieved from element located by ('xpath', "//*[text()='Book Successfully Removed from Wishlist']"): Book Successfully Removed from Wishlist
+2025-04-05 21:15:10,894 - AppLogger - INFO - Assertion passed: Actual = Book Successfully Removed from Wishlist, Expected = Book Successfully Removed from Wishlist

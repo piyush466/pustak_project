@@ -8,6 +8,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from uihelper.helper_file import UI_Helper
 
 from selenium.webdriver.support import expected_conditions as EC
+
 class Product_Page(UI_Helper):
 
     SEARCH_PRODUCT_XPATH = (By.XPATH, "(//input[@id='gsearch'])[1]")

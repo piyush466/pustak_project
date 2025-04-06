@@ -1,3 +1,5 @@
+from selenium.webdriver.common.devtools.v128.emulation import SensorReading
+
 from test_cases import test_login01
 from test_cases.baseclass import BaseClass
 
@@ -28,6 +30,33 @@ class Test_MyProfile(BaseClass):
         self.my_profile.navigate_manage_address()
         self.my_profile.add_new_address("piyush", 444607, "amravati", "hotel",8411878794, 8411878794)
         self.uihelp.assertion(self.my_profile.verify_succes_message_address, "Address Added Successfully")
+
+    def test_05_user_can_delete_address(self):
+        self.login.do_login(test_login01.username, test_login01.password)
+        self.my_profile.navigate_my_profile()
+        self.my_profile.navigate_manage_address()
+        self.my_profile.add_new_address("piyush", 444607, "amravati", "hotel", 8411878794, 8411878794)
+        self.my_profile.delete_address()
+        self.uihelp.assertion(self.my_profile.verify_delete_success_message, "Address deleted succesfully")
+
+    def test_06_user_can_edit_the_address(self):
+        self.login.do_login(test_login01.username, test_login01.password)
+        self.my_profile.navigate_my_profile()
+        self.my_profile.navigate_manage_address()
+        self.my_profile.add_new_address("piyush", 444607, "amravati", "hotel", 8411878794, 8411878794)
+        self.my_profile.edit_address("Akash")
+        self.uihelp.assertion(self.my_profile.verify_edit_success_message, "Address Edited Successfully")
+
+    def test_07(self):
+        self.uihelp.take_screenshot()
+
+
+
+
+
+
+
+
 
 
 

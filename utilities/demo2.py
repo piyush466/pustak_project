@@ -119,9 +119,22 @@ from os import lseek
 # #
 # # print(dict)
 
+# name = "piyush akash"
+#
+# new_name = name.split()
+# new_name.reverse()
+#
+# new = " ".join(new_name)
+# print(new)
 
 
-
+# name = [2,1,3,1,2,5,6,7]
+#
+# name[2] = "piyush"
+#
+# print(name.append(9))
+#
+# print(name)
 
 
 

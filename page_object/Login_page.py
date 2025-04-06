@@ -27,6 +27,7 @@ class Login(UI_Helper):
         self.do_click(self.CLICK_ON_PROCEED_XPATH)
         self.send_key(self.ENTER_PASSWORD_XPATH, password)
         self.do_click(self.CLICK_LOGIN_BTN_CSS)
+        self.driver.refresh()
         time.sleep(3)
 
     def check_broken_links(self):

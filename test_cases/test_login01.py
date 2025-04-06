@@ -21,7 +21,7 @@ class Test_Login(BaseClass):
         self.uihelp.assertion(self.login.get_text(self.login.VERIFY_AFTER_LOGIN_XPATH), "Hi! Reader")
 
     def test_02_valid_username_invalid_password(self):
-        self.login.do_login(username,password)
+        self.login.do_login(username,"password")
         self.uihelp.assertion(self.login.get_text(self.login.INVALID_MSG_AFTER_ENTER_WRONG_CREDS_CSS),
                               "Entered email or password is incorrect")
 

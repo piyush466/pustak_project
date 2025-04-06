@@ -1,6 +1,6 @@
 import logging
 
-def setup_logger(log_file=r"C:\Users\Piyush Dravyakar\Pustak_project\pythonProject\Logs_file\Automation.log"):
+def setup_logger(log_file=r"C:\Users\Piyush Dravyakar\pythonProject_pustak\Logs_file\Automation.log"):
     logger = logging.getLogger("AppLogger")
 
     # Check if handlers are already added

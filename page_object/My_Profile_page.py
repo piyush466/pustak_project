@@ -28,6 +28,12 @@ class My_Profile(UI_Helper):
     ENTER_WP_NO_BY_NAME = (By.NAME, "alt_phone_no")
     CLICK_ON_ADD_ADDRESS_XPATH = (By.XPATH, "//*[text()='Add Address']")
     VERIFY_ADDRESS_ADDEDE_SUCCESFUL_XPATH = (By.XPATH, "//*[text()='Address Added Successfully']")
+    DELETE_BUTTON_XPATH = (By.XPATH, "(//*[text()=' Delete'])[1]")
+    CLICK_ON_YES_XPATH = (By.XPATH, "//*[text()='Yes']")
+    VERIFY_ADDRESS_DELETE_MESSAGE_XAPTH = (By.XPATH, "//*[text()='Address deleted succesfully']")
+    EDIT_ADDRESS_BUTTON_XPATH = (By.XPATH, "//*[text()=' Edit']")
+    SAVE_ADDRESS_BUTTON_XPATH = (By.XPATH, "//*[text()='Save Address']")
+    VERIFY_EDITED_SUCCESS_MESSAGE_XPATH = (By.XPATH, "//*[text()='Address Edited Successfully']")
 
     def __init__(self, driver):
         self.driver = driver
@@ -57,7 +63,7 @@ class My_Profile(UI_Helper):
         self.do_click(self.NAVIGATE_TO_MANAGE_ADDRESS_PAGE_XPATH)
         self.verify_manage_address = self.get_text(self.VERIFY_MANAGE_ADDRESS_PAGE_XPATH)
 
-    def add_new_address(self,name,pincode,address,landmark,mobile_no,wp_no):
+    def add_new_address(self,name,pincode,address,landmark,mobile_no,wp_no=8411878794):
         self.do_click(self.CLICK_ADD_NEW_ADDRESS_XPATH)
         self.send_key(self.ENTER_NAME_BY_NAME, name)
         self.send_key(self.ENTER_PINCODE_BY_NAME, pincode)
@@ -67,7 +73,22 @@ class My_Profile(UI_Helper):
         self.send_key(self.ENTER_WP_NO_BY_NAME, wp_no)
         self.do_click(self.CLICK_ON_ADD_ADDRESS_XPATH)
         self.verify_succes_message_address = self.get_text(self.VERIFY_ADDRESS_ADDEDE_SUCCESFUL_XPATH)
-        time.sleep(5)
+
+    def delete_address(self):
+        self.do_click(self.DELETE_BUTTON_XPATH)
+        self.do_click(self.CLICK_ON_YES_XPATH)
+        self.verify_delete_success_message = self.get_text(self.VERIFY_ADDRESS_DELETE_MESSAGE_XAPTH)
+        print(self.verify_delete_success_message)
+
+    def edit_address(self, Fname):
+        self.do_click(self.EDIT_ADDRESS_BUTTON_XPATH)
+        input_box = self.driver.find_element(By.NAME, "fullname")
+        self.driver.execute_script("arguments[0].value = '';", input_box)
+        input_box.send_keys("New Text")
+        self.do_click(self.SAVE_ADDRESS_BUTTON_XPATH)
+        self.verify_edit_success_message = self.get_text(self.VERIFY_EDITED_SUCCESS_MESSAGE_XPATH)
+        print(self.verify_edit_success_message)
+
 
 
 
