@@ -45,7 +45,7 @@ class Login(UI_Helper):
                     response = requests.get(url)
                     if response.status_code >= 400:
                         self.broken_links.append(url)
-                        print(f"this url is broker {url} and the status code is {response.status_code}")
+                        print(f"this url is broken {url} and the status code is {response.status_code}")
                     else:
                         self.valid_links.append(url)
                         print(f"this is valid url {url} and the status code is {response.status_code}")

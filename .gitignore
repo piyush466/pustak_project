@@ -1,0 +1,6 @@
+test_data/Login_creds.py
+.env
+reports
+config
+allure-results
+allure-2.33.0

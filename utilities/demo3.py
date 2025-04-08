@@ -59,3 +59,19 @@
 #
 #
 #
+
+# dict = [{"name" : "Piyush",
+#         "age" : 25,
+#         "Designation": "QA Engineer"},
+#         {"name": "akash",
+#          "age" : 22,
+#          "Designation": "Farmer"}]
+#
+#
+#
+
+
+
+
+
+

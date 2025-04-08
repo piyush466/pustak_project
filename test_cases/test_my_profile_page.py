@@ -15,7 +15,7 @@ class Test_MyProfile(BaseClass):
         self.login.do_login(test_login01.username, test_login01.password)
         self.my_profile.navigate_my_profile()
         self.my_profile.remove_text_from_textbox()
-        self.my_profile.enter_fname_and_lname("Piyush", "Dr12")
+        self.my_profile.enter_fname_and_lname("Raju", "kr12")
         self.uihelp.assertion(self.my_profile.verify_success_message, "Profile Updated Successfully")
 
     def test_03_user_can_navigate_to_manage_address_page(self):
@@ -28,14 +28,14 @@ class Test_MyProfile(BaseClass):
         self.login.do_login(test_login01.username, test_login01.password)
         self.my_profile.navigate_my_profile()
         self.my_profile.navigate_manage_address()
-        self.my_profile.add_new_address("piyush", 444607, "amravati", "hotel",8411878794, 8411878794)
+        self.my_profile.add_new_address("raju", 111045, "pune", "hotel",1231231231, 1231231231)
         self.uihelp.assertion(self.my_profile.verify_succes_message_address, "Address Added Successfully")
 
     def test_05_user_can_delete_address(self):
         self.login.do_login(test_login01.username, test_login01.password)
         self.my_profile.navigate_my_profile()
         self.my_profile.navigate_manage_address()
-        self.my_profile.add_new_address("piyush", 444607, "amravati", "hotel", 8411878794, 8411878794)
+        self.my_profile.add_new_address("raju", 111045, "pune", "hotel",1231231231, 1231231231)
         self.my_profile.delete_address()
         self.uihelp.assertion(self.my_profile.verify_delete_success_message, "Address deleted succesfully")
 
@@ -43,9 +43,11 @@ class Test_MyProfile(BaseClass):
         self.login.do_login(test_login01.username, test_login01.password)
         self.my_profile.navigate_my_profile()
         self.my_profile.navigate_manage_address()
-        self.my_profile.add_new_address("piyush", 444607, "amravati", "hotel", 8411878794, 8411878794)
+        self.my_profile.add_new_address("raju", 111045, "pune", "hotel",1231231231, 1231231231)
         self.my_profile.edit_address("Akash")
         self.uihelp.assertion(self.my_profile.verify_edit_success_message, "Address Edited Successfully")
+
+    def test_08_user_can_navigate_to_my_wallet_page(self):
 
     def test_07(self):
         self.uihelp.take_screenshot()
