@@ -1,4 +1,4 @@
-test_data/Login_creds.py
+test_data
 .env
 reports
 config
@@ -8,3 +8,4 @@ C:\Users\Piyush Dravyakar\pythonProject_pustak\screenshots
 .gitignore
 .venv
 .idea
+screenshots
