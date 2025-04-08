@@ -4,8 +4,6 @@ reports
 config
 allure-results
 allure-2.33.0
-C:\Users\Piyush Dravyakar\pythonProject_pustak\screenshots
-.gitignore
 .venv
 .idea
 screenshots
