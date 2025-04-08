@@ -1,5 +1,4 @@
 test_data
-.env
 reports
 config
 allure-results
@@ -7,3 +6,4 @@ allure-2.33.0
 .venv
 .idea
 screenshots
+new
