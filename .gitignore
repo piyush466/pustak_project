@@ -5,3 +5,6 @@ config
 allure-results
 allure-2.33.0
 screenshots
+.gitignore
+.venv
+.idea

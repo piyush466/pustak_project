@@ -47,10 +47,11 @@ class Test_MyProfile(BaseClass):
         self.my_profile.edit_address("Akash")
         self.uihelp.assertion(self.my_profile.verify_edit_success_message, "Address Edited Successfully")
 
-    def test_08_user_can_navigate_to_my_wallet_page(self):
-
-    def test_07(self):
-        self.uihelp.take_screenshot()
+    # def test_08_user_can_navigate_to_my_wallet_page(self):
+    #
+    #
+    # def test_07(self):
+    #     self.uihelp.take_screenshot()
 
 
 
